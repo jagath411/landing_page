@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto App</title>
+  <link
+  rel="icon"
+  href="https://cryptologos.cc/logos/bitcoin-btc-logo.png"
+  type="image/png"
+/>
+    <!-- CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+    <!-- ICONS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.6.0/fonts/remixicon.min.css"
+    />
+
+    <!-- FONT FAMILY  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- SWIPERS CSS -->
+    <link rel="stylesheet" href="/css/swiper-bundle.min.css" />
+    <!-- MAIN JS  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-white text-white flex items-center justify-center min-h-screen"
+  >
+    <header class="fixed top-0 left-0 right-0 bg-white shadow z-50">
+      <div
+        class="max-w-7xl mx-auto flex items-center justify-between px-4 py-8"
+      >
+        <!-- Logo -->
+        <a
+          href="https://testing.cryptiecraft.com/"
+          class="flex items-center space-x-2"
+        >
+          <img
+            src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/Loogo2.png"
+            alt="CRYPTIE-CRAFT"
+            class="h-14 w-auto px-14"
+          />
+        </a>
+
+        <!-- Desktop Menu -->
+        <nav class="hidden md:flex space-x-6">
+          <!-- Exchange Solutions -->
+          <div class="relative group">
+            <button
+              class="text-gray-800 font-semibold hover:text-blue-600 transition"
+            >
+              Exchange Solutions
+              <svg
+                class="w-4 h-4 inline-block ml-1"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              ></svg>
+            </button>
+            <div
+              class="absolute left-0 top-full bg-white shadow-lg rounded-lg mt-2 p-4 hidden group-hover:block w-80 space-y-3 z-50"
+            >
+              <!-- Binance -->
+              <a
+                href="https://testing.cryptiecraft.com/binance"
+                class="flex items-center p-3 rounded-lg bg-yellow-100 hover:bg-yellow-200 transition border border-yellow-300 shadow-sm"
+              >
+                <img
+                  src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/binance%20(4).png"
+                  alt="Binance"
+                  class="h-8 w-8 mr-3"
+                />
+                <div>
+                  <p class="font-semibold text-gray-800">
+                    Binance Clone Script
+                  </p>
+                  <p class="text-sm text-gray-600">
+                    Powerful Binance clone script to launch your crypto exchange
+                  </p>
+                </div>
+              </a>
+
+              <!-- Coinbase -->
+              <a
+                href="https://testing.cryptiecraft.com/getintouch"
+                class="flex items-center p-3 rounded-lg bg-blue-100 hover:bg-blue-200 transition border border-blue-300 shadow-sm"
+              >
+                <img
+                  src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/coinbase.png"
+                  alt="Coinbase"
+                  class="h-8 w-8 mr-3"
+                />
+                <div>
+                  <p class="font-semibold text-gray-800">
+                    Coinbase Clone Script
+                  </p>
+                  <p class="text-sm text-gray-600">
+                    Launch a user-friendly crypto exchange
+                  </p>
+                </div>
+              </a>
+
+              <!-- Kucoin -->
+              <a
+                href="https://testing.cryptiecraft.com/getintouch"
+                class="flex items-center p-3 rounded-lg bg-green-100 hover:bg-green-200 transition border border-green-300 shadow-sm"
+              >
+                <img
+                  src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/kucoin%20(1).png"
+                  alt="Kucoin"
+                  class="h-8 w-8 mr-3"
+                />
+                <div>
+                  <p class="font-semibold text-gray-800">Kucoin Clone Script</p>
+                  <p class="text-sm text-gray-600">
+                    Start a feature-rich exchange
+                  </p>
+                </div>
+              </a>
+            </div>
+          </div>
+          <nav class="relative group">
+            <button
+              class="text-gray-800 font-semibold hover:text-blue-600 transition"
+            >
+              Exchange Solutions
+            </button>
+
+            <!-- Dropdown panel -->
+            <div
+              class="absolute left-0 top-full hidden group-hover:block bg-white shadow-xl rounded-lg w-[320px] mt-3 z-50 p-4 space-y-3"
+            >
+              <!-- Clone Script Tabs -->
+              <div class="space-y-2">
+                <!-- Binance -->
+                <a
+                  href="https://testing.cryptiecraft.com/binance"
+                  class="flex items-start gap-3 p-3 bg-yellow-100 hover:bg-yellow-200 rounded-lg border border-yellow-200 transition shadow-sm"
+                >
+                  <img
+                    src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/binance%20(4).png"
+                    alt="Binance Logo"
+                    class="h-8 w-8"
+                  />
+                  <div>
+                    <h4 class="text-sm font-semibold text-gray-800">
+                      Binance Clone Script
+                    </h4>
+                    <p class="text-sm text-gray-600">
+                      Powerful Binance clone script to launch your crypto
+                      exchange
+                    </p>
+                  </div>
+                </a>
+
+                <!-- Coinbase -->
+                <a
+                  href="https://testing.cryptiecraft.com/getintouch"
+                  class="flex items-start gap-3 p-3 bg-blue-100 hover:bg-blue-200 rounded-lg border border-blue-200 transition shadow-sm"
+                >
+                  <img
+                    src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/coinbase.png"
+                    alt="Coinbase Logo"
+                    class="h-8 w-8"
+                  />
+                  <div>
+                    <h4 class="text-sm font-semibold text-gray-800">
+                      Coinbase Clone Script
+                    </h4>
+                    <p class="text-sm text-gray-600">
+                      Launch a user-friendly crypto exchange with our coinbase
+                      clone script
+                    </p>
+                  </div>
+                </a>
+
+                <!-- KuCoin -->
+                <a
+                  href="https://testing.cryptiecraft.com/getintouch"
+                  class="flex items-start gap-3 p-3 bg-green-100 hover:bg-green-200 rounded-lg border border-green-200 transition shadow-sm"
+                >
+                  <img
+                    src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/kucoin%20(1).png"
+                    alt="Kucoin Logo"
+                    class="h-8 w-8"
+                  />
+                  <div>
+                    <h4 class="text-sm font-semibold text-gray-800">
+                      Kucoin Clone Script
+                    </h4>
+                    <p class="text-sm text-gray-600">
+                      Start a feature-rich exchange with our KuCoin clone script
+                    </p>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </nav>
+
+          <!-- Tokenization -->
+          <div class="relative group">
+            <button
+              class="text-gray-800 font-semibold hover:text-blue-600 transition"
+            >
+              Tokenization
+            </button>
+            <div
+              class="absolute left-0 top-full bg-white shadow-md rounded mt-2 p-4 hidden group-hover:block w-64 space-y-2"
+            >
+              <a
+                href="https://testing.cryptiecraft.com/erc20"
+                class="block p-2 rounded hover:bg-gray-100 bg-gray-200"
+              >
+                <div class="flex items-center space-x-3">
+                  <img
+                    src="https://testing.cryptiecraft.com/wp-content/themes/10%20pages%20final/assets/header_icons/erc 20.png"
+                    class="h-6 w-6"
+                  />
+                  <div>
+                    <p class="font-semibold">ERC-20 Token Development</p>
+                    <p class="text-sm text-gray-600">
+                      Secure and scalable smart contracts
+                    </p>
+                  </div>
+                </div>
+              </a>
+              <!-- Add other token options like TRC-20, BEP-20 as needed -->
+            </div>
+          </div>
+        </nav>
+
+        <!-- Get in Touch Button -->
+        <a
+          href="#contaactus"
+          class="hidden md:inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700"
+        >
+          Get in Touch
+        </a>
+
+        <!-- Mobile Menu Button -->
+        <button class="md:hidden text-gray-800" id="mobile-menu-toggle">
+          <svg
+            class="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="2"
+              d="M4 6h16M4 12h16M4 18h16"
+            />
+          </svg>
+        </button>
+      </div>
+
+      <!-- Mobile Menu (Hidden by default) -->
+      <div
+        id="mobile-menu"
+        class="md:hidden hidden bg-white px-4 py-2 space-y-2"
+      >
+        <a href="#" class="block text-gray-800">Exchange Solutions</a>
+        <a href="#" class="block text-gray-800">Tokenization</a>
+        <a href="#" class="block text-gray-800">NFT</a>
+        <a href="#" class="block text-gray-800">Wallet Solutions</a>
+        <a href="#" class="block text-gray-800">DeFi</a>
+        <a
+          href="https://testing.cryptiecraft.com/getintouch"
+          class="block font-semibold border border-blue-600 rounded px-4 py-2 hover:bg-blue-100"
+          >Get in Touch</a
+        >
+      </div>
+    </header>
+    <section class="mt-20 p-4">
+      <h1 class="text-3xl font-bold">Welcome to Crypto App</h1>
+      <p class="mt-2 text-gray-700">
+        Your one-stop solution for all things crypto.
+      </p>
+    </section>
+
+    <!-- scroll js min -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <!-- swiper -->
+    <script src="./js/scrollreveal.min.js"></script>
+    <!-- main js -->
+    <script src="./js/main.js"></script>
+  </body>
+</html>
