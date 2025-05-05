@@ -1,8 +1,25 @@
+const { Container } = require("postcss");
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html"],
+  // content: ["./*.html"],
+  content: ["*.{html,js}"],
   theme: {
     extend: {
+      container: {
+        padding: {
+          DEFAULT: "15px",
+          sm: "2rem",
+          lg: "3rem",
+          xl: "4rem",
+        },
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "960px",
+        xl: "1200px",
+      },
       colors: {
         primary: "#065f78",
         secondary: "#FBBF24",

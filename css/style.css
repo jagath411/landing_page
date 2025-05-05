@@ -1,3 +1,24 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+[x-cloak] {
+  display: none !important;
+}
+
+/* style.css */
+.bg-primary-button {
+  background: linear-gradient(#098fb5, #055268);
+  color: white; /* optional if you want white text by default */
+  border-radius: 20px;
+  font-size: 15px;
+}
+
+.hide-header {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+header {
+  transition: transform 0.3s ease-in-out;
+}
